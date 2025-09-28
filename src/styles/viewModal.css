@@ -1,0 +1,65 @@
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px; /* increased width */
+  max-width: 90%;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ticket-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.ticket-details label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.ticket-details input,
+.ticket-details textarea,
+.ticket-details select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.ticket-details textarea {
+  resize: vertical;
+}
+
+.styled-select {
+  height: 45px;
+}
+
+.save-btn {
+  background: #6410c9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.save-btn:hover {
+  background: #5010a5;
+}

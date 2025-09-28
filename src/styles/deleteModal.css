@@ -1,0 +1,51 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* spacing between Yes & No */
+}
+
+.modal-btn {
+  padding: 6px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #333;
+  background: transparent;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.modal-btn:hover {
+  background: #f1f1f1;
+}
+
+.modal-btn.yes {
+  border-color: green;
+  color: green;
+}
+
+.modal-btn.no {
+  border-color: red;
+  color: red;
+}
