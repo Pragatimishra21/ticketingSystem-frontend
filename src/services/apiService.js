@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "https://crossover.proxy.rlwy.net/api";
+const apiUrl = "https://crossover.proxy.rlwy.net:13905/api";
 
 export async function createTicket(ticket) {
   const response = await axios.post(`${apiUrl}/tickets`, ticket);
